@@ -10,11 +10,11 @@ nav {
 
 .logo a {
     font-size: 42px;
-    text-decoration: none;
     color:#381664;
     font-family: "Syne";
     font-weight: 800;
     font-style: normal;
+    text-decoration: none;
 }
 
 nav ul {
@@ -29,15 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #381664;
     font-size: 28px;
     line-height: 32px;
-    font-family: "Lexend Exa", sans-serif;
-    font-optical-sizing: auto;
+    font-family: syne;
     font-weight:300;
     font-style: normal;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 nav ul li a:hover {
     color: #ff9800;
@@ -71,9 +70,9 @@ nav ul li a:hover {
     line-height: 120px;
     letter-spacing: -0.02em;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #381664;
+    width: 80%;
+    text-align: center;
 
 }
 
@@ -107,11 +106,11 @@ nav ul li a:hover {
 }
 
 .portfolio-item h3 {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: left;
-    font-family: "Newsreader", serif;
+    font-family: Familjen Grotesk;
     font-weight: normal;
     color: #381664;
 }
@@ -242,7 +241,7 @@ cursor: pointer;
 }
 .cont5{
     margin: 5%;
-    padding: 5%;
+    padding: 14%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,16 +249,14 @@ cursor: pointer;
     text-align: center;
 }
 .cont5 h2{
-    font-family: "Roboto", serif;
+    font-family: syne;
     font-weight: lighter;
     font-style: normal;
     font-size: 28px;
-    color: #381664;
+    color: #440A8F;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.01em;
     text-align: center;
-    text-decoration-skip-ink: none;
 }
 .cont5 p{
     font-family: "Gothic A1", serif;
@@ -281,11 +278,10 @@ cursor: pointer;
     margin: 0 2px;
 }
 .submit{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
+    font-family: Space Mono;
     font-weight: 400;
     font-style: normal;
-    background-color: #381664;
+    background-color: #440A8F;
     color: white;
     padding: 5px 120px;
     border: none;
@@ -296,11 +292,9 @@ cursor: pointer;
     margin-top: 20px;
 }
 .skip{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #381664;
+    font-weight: 700;
+    font-family: monospace;
+    color: #440A8F;
     border: none;
     cursor: pointer;
     margin-top: 15px;
